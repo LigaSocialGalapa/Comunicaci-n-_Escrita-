@@ -20,3 +20,15 @@ main div {
   height: 300px;
   padding: 0 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 2rem;
+  }
+  main div {
+    flex-direction: column;
+  }
+  .target {
+    margin: 1em 0;
+  }
+}
