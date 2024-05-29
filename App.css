@@ -9,6 +9,7 @@ main div {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 .target {
   margin: 1em;
@@ -21,7 +22,7 @@ main div {
   padding: 0 2rem;
 }
 
-@media screen and (max-width: 768px) {
+@media (width < 768px) {
   body {
     margin: 0 2rem;
   }
