@@ -10,8 +10,7 @@ main div {
   justify-content: center;
   align-items: center;
 }
-
-main div div {
+.target {
   margin: 1em;
   display: flex;
   flex-direction: column;
@@ -19,5 +18,5 @@ main div div {
   background-color: rgb(27, 26, 26);
   border-radius: 50px;
   height: 300px;
-  padding: 0.5rem;
+  padding: 0 2rem;
 }
